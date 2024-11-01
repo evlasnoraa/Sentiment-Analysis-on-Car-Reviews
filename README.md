@@ -58,6 +58,32 @@ In Task 2, I reused the data prepared in the first three steps of Task 1 and imp
 
 ---
 
+## Results and Analysis
+
+### Confusion Matrices (Percent-Wise)
+Below are the percent-wise confusion matrices for both classifiers:
+
+#### Naïve Bayes
+|               | Predicted Neg | Predicted Pos |
+|---------------|---------------|---------------|
+| **Actual Neg**| 38.41%        | 10.14%        |
+| **Actual Pos**| 8.70%         | 42.75%        |
+
+#### Logistic Regression
+|               | Predicted Neg | Predicted Pos |
+|---------------|---------------|---------------|
+| **Actual Neg**| 37.68%        | 10.14%        |
+| **Actual Pos**| 9.42%         | 42.75%        |
+
+### Summary of Classifier Accuracy
+- **Naïve Bayes Accuracy**: 81.16%
+- **Logistic Regression Accuracy**: 80.43%
+
+### Interpretation
+The Naïve Bayes classifier achieved a slightly higher accuracy (81.16%) than the Logistic Regression classifier (80.43%). Both models performed similarly in correctly predicting positive and negative sentiments, though Naïve Bayes exhibited a marginally better performance in this sentiment classification task.
+
+---
+
 ## Tools and Libraries
 This project utilized the following libraries:
 - `nltk` for natural language processing (e.g., `stopwords`, `PorterStemmer`, `word_tokenize`).
